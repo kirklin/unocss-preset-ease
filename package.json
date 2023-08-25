@@ -62,13 +62,13 @@
     }
   },
   "dependencies": {
-    "@unocss/core": "^0.55.3"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.6",
     "@kirklin/eslint-config": "^0.5.2",
     "@types/node": "^20.5.6",
     "@unocss/autocomplete": "^0.55.3",
+    "@unocss/core": "^0.55.3",
     "bumpp": "^9.2.0",
     "eslint": "^8.47.0",
     "esno": "^0.17.0",

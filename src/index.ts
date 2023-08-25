@@ -1,4 +1,4 @@
-import type { Preset } from "@unocss/core";
+import type { Preset } from "unocss";
 import { camelCase, kebabCase } from "./utils";
 import { easing } from "./easing";
 import type { EasePresetOptions } from "./types";
