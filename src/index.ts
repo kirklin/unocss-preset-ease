@@ -32,7 +32,7 @@ export const presetEase = ({ prefix = "ease-" }: EasePresetOptions = {}): Preset
     autocomplete: {
       templates: [easingFunctionSelector],
     },
-  };
+  } as Preset<any>;
 };
 
 export * from "./types";
