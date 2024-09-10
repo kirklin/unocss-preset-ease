@@ -1,217 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UnoCSS Preset Ease Demo</title>
-</head>
-<body class="bg-gray-100 min-h-screen font-sans text-gray-800">
-<div id="app" class="container mx-auto px-4 py-8">
-  <h1 class="text-4xl font-bold text-center mb-8 text-gray-900">UnoCSS Preset Ease Demo</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnoCSS Preset Ease Demo</title>
+  </head>
+  <body class="bg-gray-100 min-h-screen font-sans text-gray-800">
+    <div id="app" class="container mx-auto px-4 py-8">
+      <h1 class="text-4xl font-bold text-center mb-8 text-gray-900">UnoCSS Preset Ease Demo</h1>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <!-- CSS Easing -->
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS</h2>
-      <div class="ease duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see CSS easing
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- CSS Easing -->
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS</h2>
+          <div class="ease duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">Hover to see CSS easing</div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS In</h2>
+          <div class="ease-in duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see CSS in easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS Out</h2>
+          <div class="ease-out duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see CSS out easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS In Out</h2>
+          <div class="ease-in-out duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see CSS in-out easing
+          </div>
+        </div>
+
+        <!-- In Easing -->
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Sine</h2>
+          <div class="ease-in-sine duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-sine easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Cubic</h2>
+          <div class="ease-in-cubic duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-cubic easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Quint</h2>
+          <div class="ease-in-quint duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-quint easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Circ</h2>
+          <div class="ease-in-circ duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-circ easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Quad</h2>
+          <div class="ease-in-quad duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-quad easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Quart</h2>
+          <div class="ease-in-quart duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-quart easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Expo</h2>
+          <div class="ease-in-expo duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-expo easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Back</h2>
+          <div class="ease-in-back duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-back easing
+          </div>
+        </div>
+
+        <!-- Out Easing -->
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Sine</h2>
+          <div class="ease-out-sine duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-sine easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Cubic</h2>
+          <div class="ease-out-cubic duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-cubic easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Quint</h2>
+          <div class="ease-out-quint duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-quint easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Circ</h2>
+          <div class="ease-out-circ duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-circ easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Quad</h2>
+          <div class="ease-out-quad duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-quad easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Quart</h2>
+          <div class="ease-out-quart duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-quart easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Expo</h2>
+          <div class="ease-out-expo duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-expo easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Back</h2>
+          <div class="ease-out-back duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see out-back easing
+          </div>
+        </div>
+
+        <!-- In Out Easing -->
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Sine</h2>
+          <div class="ease-in-out-sine duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-sine easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Cubic</h2>
+          <div class="ease-in-out-cubic duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-cubic easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Quint</h2>
+          <div class="ease-in-out-quint duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-quint easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Circ</h2>
+          <div class="ease-in-out-circ duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-circ easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Quad</h2>
+          <div class="ease-in-out-quad duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-quad easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Quart</h2>
+          <div class="ease-in-out-quart duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-quart easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Expo</h2>
+          <div class="ease-in-out-expo duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-expo easing
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Back</h2>
+          <div class="ease-in-out-back duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
+            Hover to see in-out-back easing
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS In</h2>
-      <div class="ease-in duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see CSS in easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS Out</h2>
-      <div class="ease-out duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see CSS out easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">CSS In Out</h2>
-      <div class="ease-in-out duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see CSS in-out easing
-      </div>
-    </div>
-
-    <!-- In Easing -->
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Sine</h2>
-      <div class="ease-in-sine duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-sine easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Cubic</h2>
-      <div class="ease-in-cubic duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-cubic easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Quint</h2>
-      <div class="ease-in-quint duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-quint easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Circ</h2>
-      <div class="ease-in-circ duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-circ easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Quad</h2>
-      <div class="ease-in-quad duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-quad easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Quart</h2>
-      <div class="ease-in-quart duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-quart easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Expo</h2>
-      <div class="ease-in-expo duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-expo easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Back</h2>
-      <div class="ease-in-back duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-back easing
-      </div>
-    </div>
-
-    <!-- Out Easing -->
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Sine</h2>
-      <div class="ease-out-sine duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-sine easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Cubic</h2>
-      <div class="ease-out-cubic duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-cubic easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Quint</h2>
-      <div class="ease-out-quint duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-quint easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Circ</h2>
-      <div class="ease-out-circ duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-circ easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Quad</h2>
-      <div class="ease-out-quad duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-quad easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Quart</h2>
-      <div class="ease-out-quart duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-quart easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Expo</h2>
-      <div class="ease-out-expo duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-expo easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Out Back</h2>
-      <div class="ease-out-back duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see out-back easing
-      </div>
-    </div>
-
-    <!-- In Out Easing -->
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Sine</h2>
-      <div class="ease-in-out-sine duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-sine easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Cubic</h2>
-      <div class="ease-in-out-cubic duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-cubic easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Quint</h2>
-      <div class="ease-in-out-quint duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-quint easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Circ</h2>
-      <div class="ease-in-out-circ duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-circ easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Quad</h2>
-      <div class="ease-in-out-quad duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-quad easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Quart</h2>
-      <div class="ease-in-out-quart duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-quart easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Expo</h2>
-      <div class="ease-in-out-expo duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-expo easing
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg">
-      <h2 class="text-2xl font-semibold mb-4 text-gray-800">In Out Back</h2>
-      <div class="ease-in-out-back duration-300 hover:translate-y-2 bg-gray-200 p-4 rounded-xl">
-        Hover to see in-out-back easing
-      </div>
-    </div>
-  </div>
-</div>
-<script type="module" src="/src/main.ts"></script>
-</body>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
