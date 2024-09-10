@@ -13,6 +13,7 @@
     "unocss-preset-ease": "workspace:*"
   },
   "devDependencies": {
+    "@unocss/vite": "^0.62.3",
     "typescript": "^5.6.2",
     "vite": "^5.4.3"
   }
