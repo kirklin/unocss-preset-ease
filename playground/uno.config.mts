@@ -1,5 +1,5 @@
 import { defineConfig, presetUno } from "unocss";
-import presetEase from "../src/index";
+import presetEase from "unocss-preset-ease";
 
 export default defineConfig({
   presets: [

@@ -1,7 +1,8 @@
 {
   "name": "unocss-preset-ease",
+  "type": "module",
   "version": "0.0.3",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@9.10.0",
   "description": "",
   "author": "Kirk Lin <https://github.com/kirklin>",
   "license": "MIT",
@@ -54,30 +55,30 @@
     "up": "taze major -r -w -I"
   },
   "peerDependenciesMeta": {
-    "unocss": {
+    "@unocss/nuxt": {
       "optional": true
     },
-    "@unocss/nuxt": {
+    "unocss": {
       "optional": true
     }
   },
-  "dependencies": {},
   "devDependencies": {
-    "@antfu/ni": "^0.21.6",
-    "@kirklin/eslint-config": "^0.5.2",
-    "@types/node": "^20.5.6",
-    "@unocss/autocomplete": "^0.55.3",
-    "@unocss/core": "^0.55.3",
-    "bumpp": "^9.2.0",
-    "eslint": "^8.47.0",
-    "esno": "^0.17.0",
-    "pnpm": "^8.6.12",
-    "rimraf": "^5.0.1",
-    "taze": "^0.11.2",
-    "typescript": "^5.2.2",
+    "@antfu/ni": "^0.23.0",
+    "@kirklin/eslint-config": "^2.6.1",
+    "@types/node": "^22.5.4",
+    "@unocss/autocomplete": "^0.62.3",
+    "@unocss/core": "^0.62.3",
+    "bumpp": "^9.5.2",
+    "eslint": "^9.10.0",
+    "eslint-plugin-format": "^0.1.2",
+    "esno": "^4.7.0",
+    "pnpm": "^9.10.0",
+    "rimraf": "^6.0.1",
+    "taze": "^0.16.7",
+    "typescript": "^5.6.2",
     "unbuild": "^2.0.0",
-    "unocss": "^0.55.3",
-    "vite": "^4.4.9",
-    "vitest": "^0.34.3"
+    "unocss": "^0.62.3",
+    "vite": "^5.4.3",
+    "vitest": "^2.0.5"
   }
 }

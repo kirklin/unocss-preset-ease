@@ -12,7 +12,7 @@ import type { EasePresetOptions } from "./types";
  * @returns {Preset} Returns a UnoCSS preset object.
  *                   返回 UnoCSS 预设对象。
  */
-export const presetEase = ({ prefix = "ease-" }: EasePresetOptions = {}): Preset<any> => {
+export function presetEase({ prefix = "ease-" }: EasePresetOptions = {}): Preset<any> {
   const easingFunctionNames = Object.keys(easing)
     .map(name => kebabCase(name))
     .join("|");
@@ -33,7 +33,7 @@ export const presetEase = ({ prefix = "ease-" }: EasePresetOptions = {}): Preset
       templates: [easingFunctionSelector],
     },
   };
-};
+}
 
 export * from "./types";
 export * from "./easing";

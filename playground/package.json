@@ -9,11 +9,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@kirklin/reset-css": "^0.0.3",
+    "@kirklin/reset-css": "^0.0.6",
     "unocss-preset-ease": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "typescript": "^5.6.2",
+    "vite": "^5.4.3"
   }
 }
